@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 2404390535804249741}
   - component: {fileID: 2404390536657966724}
   - component: {fileID: 114733952741903980}
+  - component: {fileID: 8677303033540139520}
+  - component: {fileID: 3075985581519365890}
+  - component: {fileID: 1786355022}
+  - component: {fileID: 7322347239507627498}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -27,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2404390535802320973}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 3}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
@@ -102,5 +106,58 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &8677303033540139520
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404390535802320973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
+  m_Center: {x: 0, y: 0, z: -0.0000001937151}
+--- !u!54 &3075985581519365890
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404390535802320973}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1786355022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404390535802320973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7322347239507627498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404390535802320973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb8f434f776b334780d7e22842db3cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

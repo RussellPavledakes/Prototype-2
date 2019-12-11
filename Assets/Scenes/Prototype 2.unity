@@ -112,24 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &63301599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 482445520680893755, guid: 919293b2466d05c4695e555497ffe7e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 482445520626539236}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &63301600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63301599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,24 +497,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1581369566 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4460249388534029681, guid: be67dbfe89044154eb8c39364bd0e58c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4460249387028223407}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1581369567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581369566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,24 +574,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1786355017 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2404390535802320973, guid: c8b9f5a0fd4d9ad46999fe86112228a4,
-    type: 3}
-  m_PrefabInstance: {fileID: 2404390537353480508}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1786355022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786355017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2025539870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -708,24 +654,6 @@ MonoBehaviour:
   xRange: 10
   projectilePrefab: {fileID: 2404390535802320973, guid: c8b9f5a0fd4d9ad46999fe86112228a4,
     type: 3}
---- !u!1 &2096788512 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6756835570855368446, guid: b1501c9194e4b1a40a9768c75a1c5420,
-    type: 3}
-  m_PrefabInstance: {fileID: 6756835572799808222}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2096788513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096788512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cb876b414e36e6488c1ffa35dc45f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &482445520626539236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -776,7 +704,7 @@ PrefabInstance:
     - target: {fileID: 482445520681215545, guid: 919293b2466d05c4695e555497ffe7e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 482445520681215545, guid: 919293b2466d05c4695e555497ffe7e4,
         type: 3}
@@ -914,7 +842,7 @@ PrefabInstance:
     - target: {fileID: 4460249388534303491, guid: be67dbfe89044154eb8c39364bd0e58c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4460249388534303491, guid: be67dbfe89044154eb8c39364bd0e58c,
         type: 3}
@@ -983,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 6756835570855096344, guid: b1501c9194e4b1a40a9768c75a1c5420,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6756835570855096344, guid: b1501c9194e4b1a40a9768c75a1c5420,
         type: 3}
